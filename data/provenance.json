@@ -1,0 +1,30 @@
+{
+  "AAPL": {
+    "name": "Plotly public historical AAPL OHLCV sample",
+    "url": "https://raw.githubusercontent.com/plotly/datasets/53cd4f5c9e682f59a9b86b6229aa304e570e09dc/finance-charts-apple.csv",
+    "mode": "Replay",
+    "delay_seconds": null,
+    "retrieved_on": "2026-10-13",
+    "rows": 506,
+    "start": "2015-02-17",
+    "end": "2017-02-16",
+    "sha256": "11643cc6fd6ab77a289d88eb834865e32ab31f7d2b7020536782bab06eeec76d",
+    "source_sha256": "24c7604edfd5afe862ddb9f9535e2fd7351f43711bfc442bca52055e15e37bcd",
+    "price_convention": "Historical nominal OHLC for this 2015\u20132017 window; dividends are not adjusted; no stock splits in this interval. AAPL.Adjusted and precomputed indicators deliberately excluded. Not total-return prices.",
+    "usage": "Public Plotly example data; verify original market-data rights before redistribution or commercial use."
+  },
+  "MSFT": {
+    "name": "Plotly public historical MSFT OHLCV sample",
+    "url": "https://raw.githubusercontent.com/plotly/datasets/53cd4f5c9e682f59a9b86b6229aa304e570e09dc/all_stocks_5yr.csv",
+    "mode": "Replay",
+    "delay_seconds": null,
+    "retrieved_on": "2026-10-13",
+    "rows": 506,
+    "start": "2015-02-17",
+    "end": "2017-02-16",
+    "sha256": "7f1aab32a9043e8dd106421e11d9d8d7c15221dc2b21169c2ae3b8a90a52df49",
+    "source_sha256": "6aea253cd19de60b568143991aaf1fa482456565c389205658d236e595e716cf",
+    "price_convention": "Historical nominal OHLC for this 2015\u20132017 window; dividends are not adjusted; no stock splits in this interval. AAPL.Adjusted and precomputed indicators deliberately excluded. Not total-return prices.",
+    "usage": "Public Plotly example data; verify original market-data rights before redistribution or commercial use."
+  }
+}

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Keep source snapshots byte-for-byte identical to their provenance hashes.
+data/*.csv -text
+data/finance-charts-apple.source.csv whitespace=cr-at-eol
+
+*.npz binary
+*.png binary
